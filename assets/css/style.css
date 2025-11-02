@@ -1,4 +1,14 @@
 h1{
     color: blue;
-    
+    .annotation{
+font-size: 10px;
+    }
+}
+#subscribe-btn{
+    color:red;
+}
+body{
+    font-family: sans-serif;
+    border: 5px red solid;
+    text-align: center;
 }
