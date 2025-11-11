@@ -1,48 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CSS intro</title>
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <style>
-       /* h1 {
-            color: green;
-            text-align: center;
-            font-size: 64px;
-        }
-        p{
-            color: blue;
-        }
-        h2{
-            color: rgb(255, 0, 255);
-            text-align: justify;
-        }*/
-    </style>
-</head>
-<body>
-    <h1>
-       Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam tenetur, molestiae maiores cum optio ducimus vero dicta mollitia dolores sapiente doloremque repellendus eos nostrum atque harum saepe iure quibusdam magni?
-    </h1>
-    <h2 style="font-size: 16px;text-align: center;">    
-         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem.
-    </h2>
-    <p class="annotation">
-         Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis optio temporibus enim placeat veniam, iure deserunt quia porro itaque illo.
-    </p>
-    <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis optio temporibus enim placeat veniam, iure deserunt quia porro itaque illo.
-    </p>
-     <h2 >    
-         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem.
-    </h2>
-    <p class="annotation">
-         Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis optio temporibus enim placeat veniam, iure deserunt quia porro itaque illo.
-    </p>
-    <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis optio temporibus enim placeat veniam, iure deserunt quia porro itaque illo.
-    </p>
-
-    <button id="subscribe-btn">Subscribe</button>
-</body>
+    <linnk rel="stylesheet" href="./assets/css/reset.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <article class="userCard">
+      <div class="bg">
+        <i class="fa-solid fa-pencil"></i>
+      </div>
+      <div class="contentWrapper">
+        <img
+          class="userImg"
+          src="https://images.pexels.com/photos/27592252/pexels-photo-27592252.jpeg"
+          alt="Jane S. Doe"
+        />
+        <h2 class="userName">Jane S. Doe</h2>
+        <div class="userGeoposition">Amsterdam,Netherlands</div>
+        <div class="job">Copyrighter</div>
+        <p class="experience">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis
+          consequatur iste tempora atque nulla velit perspiciatis fugiat
+          quibusdam voluptate deleniti.
+        </p>
+        <footer>
+          <i class="userSocialLink fa-brands fa-instagram"></i>
+          <i class="userSocialLink fa-brands fa-twitter"></i>
+          <i class="userSocialLink fa-brands fa-facebook"></i>
+        </footer>
+      </div>
+    </article>
+  </body>
 </html>
